@@ -1,4 +1,4 @@
-package com.el.cmic.mapper;
+package com.el.cmic.dev.emp.mapper;
 
 import org.apache.ibatis.jdbc.SQL;
 

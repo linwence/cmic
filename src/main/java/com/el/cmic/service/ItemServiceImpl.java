@@ -1,7 +1,7 @@
 package com.el.cmic.service;
 
-import com.el.cmic.domain.F4101;
-import com.el.cmic.mapper.F4101Mapper;
+import com.el.cmic.dev.emp.domain.F4101;
+import com.el.cmic.dev.emp.mapper.F4101Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

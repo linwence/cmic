@@ -1,7 +1,7 @@
 package com.el.cmic.service;
 
 
-import com.el.cmic.domain.F4101;
+import com.el.cmic.dev.emp.domain.F4101;
 
 import java.util.List;
 

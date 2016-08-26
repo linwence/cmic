@@ -1,6 +1,6 @@
 package com.el.cmic.service;
 
-import com.el.cmic.domain.Emp;
+import com.el.cmic.dev.emp.domain.Emp;
 
 import java.util.List;
 

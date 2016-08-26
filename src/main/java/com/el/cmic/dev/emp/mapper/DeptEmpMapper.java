@@ -1,14 +1,14 @@
-package com.el.cmic.mapper;
+package com.el.cmic.dev.emp.mapper;
 
 
-import com.el.cmic.domain.DeptEmp;
-import com.el.cmic.domain.Emp;
+import com.el.cmic.dev.emp.domain.DeptEmp;
+import com.el.cmic.dev.emp.domain.Emp;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
-import static com.el.cmic.mapper.DeptEmpSqlProvider.sql;
-import static com.el.cmic.mapper.DeptEmpSqlProvider.sql;
+import static com.el.cmic.dev.emp.mapper.DeptEmpSqlProvider.sql;
+import static com.el.cmic.dev.emp.mapper.DeptEmpSqlProvider.sql;
 
 /**
  * Created by Vincent on 2016/7/21.

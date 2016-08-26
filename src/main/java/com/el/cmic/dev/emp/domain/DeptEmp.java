@@ -1,4 +1,4 @@
-package com.el.cmic.domain;
+package com.el.cmic.dev.emp.domain;
 
 import java.util.List;
 

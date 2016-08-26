@@ -1,4 +1,4 @@
-package com.el.cmic.domain;
+package com.el.cmic.dev.emp.domain;
 
 /**
  * Created by Vincent on 2016/7/14.

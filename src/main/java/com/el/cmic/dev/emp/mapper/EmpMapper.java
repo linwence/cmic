@@ -1,7 +1,7 @@
-package com.el.cmic.mapper;
+package com.el.cmic.dev.emp.mapper;
 
 
-import com.el.cmic.domain.Emp;
+import com.el.cmic.dev.emp.domain.Emp;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
