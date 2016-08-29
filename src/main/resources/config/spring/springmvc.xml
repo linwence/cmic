@@ -11,13 +11,13 @@
 
     <context:annotation-config/>
     
-    <mvc:annotation-driven conversion-service="myDateFormatter"/>
+    <mvc:annotation-driven conversion-service="myDateConvert"/>
 
     <mvc:resources mapping="/css/**/" location="/css/"/>
     <mvc:resources mapping="/js/**/" location="/js/"/>
 
     <!-- 返回json 方法一 需要导入 fastjson.jar包 -->
-    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
         <property name="messageConverters">
             <list>
@@ -39,19 +39,29 @@
                 </bean>
             </list>
         </property>
-    </bean>
+    </bean>-->
 
 
-    <context:component-scan base-package="com.el.cmic.controller"/>
+    <context:component-scan base-package="com.el.cmic.dev.emp.controller"/>
 
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+   <!--
     <bean id="myDateFormatter" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
         <property name="formatters">
             <set>
-                <bean class="com.el.cmic.common.MyDateFormater"></bean>
+                <bean class="com.el.cmic.dev.emp.common.MyDateFormater"></bean>
+            </set>
+        </property>
+    </bean>-->
+
+    <bean id="myDateConvert" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.el.cmic.dev.emp.common.MyDateConvert"/>
             </set>
         </property>
     </bean>

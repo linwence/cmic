@@ -28,8 +28,8 @@
             )
             ;
             $.ajax({
-                        url: "<%=basePath%>"+"emp/api",
-                        type: 'post',
+                        url: "<%=basePath%>"+"api/emp/list",
+                        type: 'get',
                         cache: false,
                         success: function (data) {
                             $("#mytbody").append(mytbodytemple(data));

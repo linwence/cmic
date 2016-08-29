@@ -26,6 +26,7 @@ public class EmpController {
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public @ResponseBody List<Emp> queryEmp() {
+        logger.info("..........s..............");
         return empService.queryEmp();
     }
 
